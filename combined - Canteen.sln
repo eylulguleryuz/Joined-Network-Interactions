@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC_Adapter", "Adapter_gRPC\gRPC_Adapter.csproj", "{C5641A19-44A2-4ECA-827A-53F4A5671DCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPC_Adapter", "Adapter_RPC\RPC_Adapter.csproj", "{0F390CBC-B15B-4CDC-8B7C-731A589A3D93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baker", "Baker_grpc\Baker.csproj", "{39F3B7AC-54C1-4FAD-B3FE-A3420BF39E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanteenContract", "CanteenContract\CanteenContract.csproj", "{1CD4D906-1730-4E1B-BEC7-30DE715C8E40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Canteen", "Canteen_RabbitMQ\Canteen.csproj", "{6DFF6255-E50E-4211-B731-11D8F83D3E09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{5985019A-361D-4BB4-9BDC-6E7D1456DF89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eater", "Eater_sRPC\Eater.csproj", "{5D078054-7BFD-4270-A417-E170386FFF7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5641A19-44A2-4ECA-827A-53F4A5671DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5641A19-44A2-4ECA-827A-53F4A5671DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5641A19-44A2-4ECA-827A-53F4A5671DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5641A19-44A2-4ECA-827A-53F4A5671DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F390CBC-B15B-4CDC-8B7C-731A589A3D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F390CBC-B15B-4CDC-8B7C-731A589A3D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F390CBC-B15B-4CDC-8B7C-731A589A3D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F390CBC-B15B-4CDC-8B7C-731A589A3D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F3B7AC-54C1-4FAD-B3FE-A3420BF39E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F3B7AC-54C1-4FAD-B3FE-A3420BF39E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F3B7AC-54C1-4FAD-B3FE-A3420BF39E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F3B7AC-54C1-4FAD-B3FE-A3420BF39E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD4D906-1730-4E1B-BEC7-30DE715C8E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD4D906-1730-4E1B-BEC7-30DE715C8E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD4D906-1730-4E1B-BEC7-30DE715C8E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD4D906-1730-4E1B-BEC7-30DE715C8E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFF6255-E50E-4211-B731-11D8F83D3E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFF6255-E50E-4211-B731-11D8F83D3E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFF6255-E50E-4211-B731-11D8F83D3E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFF6255-E50E-4211-B731-11D8F83D3E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5985019A-361D-4BB4-9BDC-6E7D1456DF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5985019A-361D-4BB4-9BDC-6E7D1456DF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5985019A-361D-4BB4-9BDC-6E7D1456DF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5985019A-361D-4BB4-9BDC-6E7D1456DF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D078054-7BFD-4270-A417-E170386FFF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D078054-7BFD-4270-A417-E170386FFF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D078054-7BFD-4270-A417-E170386FFF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D078054-7BFD-4270-A417-E170386FFF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEE86520-D9E5-485A-9545-34FB457C395F}
+	EndGlobalSection
+EndGlobal

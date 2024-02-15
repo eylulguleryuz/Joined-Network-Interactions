@@ -1,0 +1,32 @@
+//set the language version
+syntax = "proto3";
+
+//this will translate into C# namespace
+package Services;
+
+//this will translate into service and service client stubs
+service Service {    
+	//these will translate into a service operations
+	rpc GetHour(Empty) returns (IntMsg);
+	rpc BakerBakes(Empty) returns (BoolMsg);
+	rpc EaterEats(Empty) returns (BoolMsg);
+	rpc CloseCanteen(Empty) returns (BoolMsg);
+	rpc Count24H(Empty) returns (Empty);
+	rpc Bake(IntMsg) returns (Empty);
+	rpc Eat(IntMsg) returns (Empty);
+	rpc BakerLeaves(Empty) returns (Empty);
+	rpc EaterLeaves(Empty) returns (Empty);
+}
+
+//this is used for calls that do accept inputs or produce outputs
+message Empty {    
+}
+
+//single value structures
+message IntMsg {
+	int32 value = 1;
+}
+
+message BoolMsg {
+	bool value = 1;
+}

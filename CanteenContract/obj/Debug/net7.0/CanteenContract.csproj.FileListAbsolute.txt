@@ -1,0 +1,22 @@
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\bin\Debug\net7.0\CanteenContract.deps.json
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\bin\Debug\net7.0\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\bin\Debug\net7.0\CanteenContract.pdb
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\CanteenContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\CanteenContract.AssemblyInfoInputs.cache
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\CanteenContract.AssemblyInfo.cs
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\CanteenContract.csproj.CoreCompileInputs.cache
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\refint\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\CanteenContract.pdb
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\simplerpc\simplerpc\CanteenContract\obj\Debug\net7.0\ref\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\bin\Debug\net7.0\CanteenContract.deps.json
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\bin\Debug\net7.0\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\bin\Debug\net7.0\CanteenContract.pdb
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\CanteenContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\CanteenContract.AssemblyInfoInputs.cache
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\CanteenContract.AssemblyInfo.cs
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\CanteenContract.csproj.CoreCompileInputs.cache
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\refint\CanteenContract.dll
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\CanteenContract.pdb
+C:\Users\eylul\Desktop\Studies\Autumn 2024\Mobile services\combined - Canteen\CanteenContract\obj\Debug\net7.0\ref\CanteenContract.dll

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Protos\service.proto" GrpcServices="server"/>
+		<ProjectReference Include="..\Common\Common.csproj"/>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore" Version="2.49.0"/>
+		<PackageReference Include="NLog" Version="4.7.11"/>
+		<PackageReference Include="NSwag.MSBuild" Version="13.17.0"/>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+		<PackageReference Include="RabbitMQ.Client" Version="6.2.2"/>
+	</ItemGroup>
+
+	<!-- This will only work if server is running. It needs access to http://localhost:5000/swagger/v1/swagger.json . -->
+	<Target Name="NSwag" BeforeTargets="BeforeBuild">
+		<Exec 
+			Command="$(NSwagExe_Net60) run nswag.json /variables:Configuration=$(Configuration),OutDir=$(OutDir)" 
+			IgnoreExitCode="true"
+		/>
+		<!-- See 'https://stackoverflow.com/questions/44818730/is-there-a-net-core-cli-pre-before-build-task' as to why the following is necessary-->
+		<ItemGroup>
+      		<Compile 
+				Include="**/*$(DefaultLanguageSourceExtension)"
+				Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder);$(BaseIntermediateOutputPath)**;$(BaseOutputPath)**;@(Compile)" />
+    	</ItemGroup>
+	</Target>
+</Project>
