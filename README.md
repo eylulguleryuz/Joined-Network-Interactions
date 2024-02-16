@@ -1,4 +1,4 @@
-# Network Interactions
+# Joined Network Interactions
 A .NET project that explores client(Baker, Eater)-server(Canteen) architecture using different types of network components. 
 Canteen uses RabbitMQ while Baker uses gRPC and Eater uses SimpleRpc (https://github.com/DaniilSokolyuk/SimpleRpc). 
 Using additional adapters, these components were joined and works together.
