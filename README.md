@@ -1,10 +1,39 @@
-Canteen
-Components: Canteen (server), baker, eater.
-There are 24 hours in a night. From 8H to 16H baker components generate random positive amounts of new food portions baked. 
-Generated amounts are accumulated in the server. From 17H to 7H baker components do nothing. From 11H to 18H eater components 
-generated random positive amounts of food portios eaten. Generated amounts are removed from the server while also increasing 
-profit and reputation in proportion to the amount removed. From 18H to 10H eater components do nothing. If there is not enough 
-food to satisfy the eaters, reputation decreases in proportion to the amount of missing food portions. After 19H all food 
-portions left are thrown away and profit is reduced proportionally to the amount of food lost. If canteen maintains negative 
-profit or reputation for 2 subsequent nights, it gets closed for 1 night. While canteen is closed both bakers and eaters do 
-nothing. Afterwards, canteen is reset to a fresh state and simulation continues. Hours follow each other in their natural order.
+# Network Interactions
+A .NET project that explores client(Baker, Eater)-server(Canteen) architecture using different types of network components. 
+Canteen uses RabbitMQ while Baker uses gRPC and Eater uses SimpleRpc (https://github.com/DaniilSokolyuk/SimpleRpc). 
+Using additional adapters, these components were joined and works together.
+
+## The server-client logic
+There are 24 hours in a day. 
+
+Baker:
+```
+From 8 to 16 generates random positive amounts of new food portions baked. 
+From 17 to 7 does nothing.
+
+Baked amounts are accumulated in the server.
+```
+
+Eater:
+```
+From 11 to 18 generates random positive amounts of new food portions eaten. 
+From 18H to 10H does nothing.
+
+Eaten amounts are removed from the server.
+```
+
+Canteen:
+```
+The eaten amount increases profit and reputation proportionally.
+
+If there is not enough food, reputation decreases proportionally.
+
+After 19, portions left are thrown away and profit decreases proportionally.
+
+```
+
+Rules:
+```
+If profit and/or reputation is negative for 2 days, the canteen is closed for 1 day.
+Afterwards, everything gets reset and the canteen restarts freshly.
+```
